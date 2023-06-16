@@ -1,3 +1,4 @@
+2023년 6월 16일(금) ~ 2023년 6월 18일(일)
 # Starting F#
 
 I really want to understand B2-R2
