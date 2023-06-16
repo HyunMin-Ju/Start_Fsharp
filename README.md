@@ -11,4 +11,4 @@ https://youtu.be/yGzu0iDuMNQ
 
 # What is F#?
 
-It is a n open source, cross-platform pl that makes it easy to write succint(write less code), performant, robust(trust yout code over time), and practical code 
+It is an open source, cross-platform pl that makes it easy to write succint(write less code), performant, robust(trust yout code over time), and practical code 
