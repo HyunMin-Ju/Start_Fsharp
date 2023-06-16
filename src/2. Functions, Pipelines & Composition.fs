@@ -48,3 +48,18 @@ let getHtml (htmlFile: string) : HtmlDocument option =
 
 HtmlDocument.Load "doesnotexist"
 getHtml "doesnotexist"
+
+(*Pipelines & Composition*)
+
+let getLinks(html: HtmlDocument option) = 
+    match html with
+    | Some(x) -> x.Descendants["a"]
+    | None->Seq.empty
+
+let getLinksFromHtml = getHtml >> getLinks
+
+getLinksFromHtml htmlPath
+
+htmlPath
+|> getLinksFromHtml
+|>fun links -> printfn $"{links}"

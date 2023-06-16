@@ -1,0 +1,30 @@
+(*Classes*)
+type Repo(name: string, stars: int)=
+
+    //Private
+    let baseURL = "https://github.com"
+    let incrementStarsBy stars n = stars + n
+    new() = Repo("",0)
+
+    //Instance properties
+    member this.Name = name
+    member val Stars = stars with get, set
+
+    static member PrintHelp() = "Class that contains repo information"
+
+    //Methods
+    member _.GetBaseUrl() = $"{baseUrl}"
+    member this.GetRepoUrl() = $"{baseUrl}/{this.Name}"
+    member this.incrementStarsBy(n) = this.Stars <- incrementStarsBy this.Stars n
+
+//Static members
+Repo.PrintHelp()
+
+
+
+//Create instance
+let fsharpRepo = Repo("dotnet/fsharp",2800)
+let blankRepo  =Repo()
+
+
+

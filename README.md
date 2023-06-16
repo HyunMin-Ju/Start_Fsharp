@@ -1,4 +1,4 @@
-# StartingFsharp
+# Starting F#
 
 I really want to understand B2-R2
 
@@ -6,8 +6,20 @@ SO I am going to learn new programming language, F#
 
 Let's get it started!
 
-REFERENCE:
+REFERENCE1:
+(Helpful)
 https://youtu.be/yGzu0iDuMNQ
+https://github.com/dotnet/fsharp
+
+REFERENCE2:
+http://fsharpforfunandprofit.com/posts/fsharp-in-60-seconds/ 
+
+# Development Environment Setting
+.NET SDK for MacOS 
+(FOR APPLE M1 Chip!!!!!)
+https://dotnet.microsoft.com/ko-kr/learn/languages/fsharp-hello-world-tutorial/install
+
+Visual Studio Code for MacOS
 
 # What is F#?
 
