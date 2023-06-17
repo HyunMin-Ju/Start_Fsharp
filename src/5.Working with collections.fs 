@@ -1,0 +1,21 @@
+(*Collection Types*)
+
+//List: ordered series of elements
+//ex)[1;2;3]
+
+List.init<int> 10 (fun i->i)
+
+//Array: Fixed size, easy random access
+//ex)[|1;2;3|]
+
+Array.init<int> 10 (id)
+Array2D.init<int> 3 3 (fun x _ -> x)
+
+//Sequence: Computers elements as needed
+//ex)seq{1;2;3}
+Seq.init<int> 10 (fun i -> i)
+Seq.initInfinite<int> (fun i -> i)
+
+//Map: Key-value Pairs
+//Set: Distinct elements
+
