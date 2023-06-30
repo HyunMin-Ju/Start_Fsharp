@@ -1,7 +1,9 @@
 2023년 6월 16일(금) ~ 2023년 6월 18일(일)
 # Starting F#
 
-I really want to understand B2-R2
+I really want to understand B2-R2(https://github.com/B2R2-org/B2R2)
+
+
 
 SO I am going to learn new programming language, F#
 
