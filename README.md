@@ -2,7 +2,7 @@
 # Starting F#
 
 
-SO I am going to learn new programming language, F#
+I am going to learn new programming language, F#
 
 Let's get it started!
 
